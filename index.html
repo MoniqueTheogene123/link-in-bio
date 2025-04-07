@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset=""UTF-8">
+    <meta charset="UTF-8">
 
     <title>Monique's links</title>
 
@@ -11,26 +11,44 @@
       }
 
       body {
-    padding-top: 40px;
-    padding-bottom: 40px;
-  }
+        min-height: 100%;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        background: linear-gradient(180deg, #1f005c, #5b0060);
+        color: rgba(255, 255, 255, 1.0);
+        }
+
+      .avatar-image {
+        width: 128px;
+        height: 128px;
+        object-fit: cover;
+        border-radius: 128px;
+      }
+      .thumbnail {
+        width: 48px;
+        height: 48px;
+        border-radius: 48px;
+        object-fit: cover;
+      }
 </style>
   </head>
 
   <body>
     <div class="main-container">
       <div class="image-row">
-      <img src="/justin-ha-ER3BuRKBJ2g-unsplash.jpg" alt="monique headshot" width="100" height="100"></div>
-   
-    <div class="name-row">
-      Monique Theogene</div>
+      <img class="avatar-image" src="/thumbnails/justin-ha-ER3BuRKBJ2g-unsplash.jpg" alt="monique headshot"></div>
 
-    <div class="social-icons-row">
-      <a href="https://github.com/MoniqueTheogene123" target="_blank">GitHub</a>
-      <a href="https://linkedin.com/in/monique-theogene" target="_blank">LinkedIn</a>
-    
+      <div class="social-icons-row">
+        <a href="https://github.com/MoniqueTheogene123" target="_blank">GitHub</a>
+        <a href="https://linkedin.com/in/monique-theogene" target="_blank">LinkedIn</a>
+      
+      <div class="name-row">Monique Theogene</div>
+        
     <div class="links-rows">
-      <div class="item">first link</div>
+      <div class="item">
+        <img src="/thumbnails/florian-olivo-4hbJ-eymZ1o-unsplash.jpg" class="thumbnail">
+        <a target="_blank" href="https://exceljet.net/articles/index-and-match" alt="code photo">Index Match</a>
+        </div>
       <div class="item">second link</div>
       <div class="item">thirdlink</div>
       </div>
