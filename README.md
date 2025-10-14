@@ -1,3 +1,4 @@
-# static-html-template
+# link in Bio
 
-Use this template to create static HTML websites and deploy them on Render.
+- My basic porfolio with github, instagram, linkedin socials and worked on links. 
+- Tech stack: HTML  & CSS
